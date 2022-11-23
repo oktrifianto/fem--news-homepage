@@ -1,0 +1,29 @@
+.desktop-menu {
+  display: block;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.read-more {
+  background-color: brown;
+  padding: 12px 8px;
+  color: white;
+  margin-bottom: 1rem;
+  max-width: 100px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 375px){
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+}
