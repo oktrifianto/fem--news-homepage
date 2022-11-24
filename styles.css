@@ -51,11 +51,47 @@ p.excerpt {
 
 .read-more {
   background-color: #f15e50;
-  padding: 12px 8px;
+  padding: 12px 16px;
   color: white;
   margin-bottom: 1rem;
   max-width: 100px;
   text-align: center;
+  cursor: pointer;
+}
+
+.new-content {
+  background-color: #00001a;
+  padding: 1rem;
+  color: #fffdfa;
+  margin-top: 3rem;
+}
+
+.new-content h3.title {
+  color: #e9ab53;
+  font-family: "Inter-Bold";
+  font-size: 1.5rem;
+  line-height: .75rem;
+  margin-bottom: 2.5rem;
+}
+
+.sub-new-content {
+  border-bottom: 1px solid #fffdfa;
+  padding-bottom: 1rem;
+}
+
+.sub-new-content:last-child {
+  border-bottom: none;
+}
+
+.sub-new-content h4 {
+  font-family: "Inter-Bold";
+  font-size: 1.25rem;
+  line-height: 0.6rem;
+  cursor: pointer;
+}
+
+.sub-new-content p {
+  color: #999;
 }
 
 
