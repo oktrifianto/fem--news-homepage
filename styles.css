@@ -107,8 +107,13 @@ p.excerpt {
   display: flex;
 }
 
+.sub-popular-content:hover {
+  cursor: pointer;
+}
+
 .popular-content__images img {
   max-width: 110px;
+  height: 100%;
 }
 
 .popular-content__data {
@@ -147,5 +152,15 @@ p.excerpt {
     display: flex;
     justify-content: space-between;
     margin: 1.5rem 0;
+  }
+}
+
+@media screen and (min-width: 980px ) {
+  .popular-content {
+    display: flex;
+  }
+
+  .sub-popular-content {
+    margin-right: .5rem;
   }
 }
