@@ -15,22 +15,42 @@
 
 body {
   font-family: "Inter-Regular";
+  font-size: 15px;
 }
 
 h1.title {
   font-family: "Inter-Bold";
 }
 
-.desktop-menu {
-  display: block;
-}
-
 .mobile-menu {
   display: none;
 }
 
+.mobile__menu-icon {
+  cursor: pointer;
+  max-height: 30px;
+}
+
+.desktop-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+}
+
+ul.desktop__list-menu li {
+  display: inline;
+  cursor: pointer;
+  color: #888;
+  margin-right: 2rem;
+}
+
+p.excerpt {
+  color: #999;
+  line-height: 1.75rem;
+}
+
 .read-more {
-  background-color: brown;
+  background-color: #f15e50;
   padding: 12px 8px;
   color: white;
   margin-bottom: 1rem;
