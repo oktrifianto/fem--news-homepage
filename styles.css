@@ -1,3 +1,26 @@
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("/assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("/assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("/assets/fonts/static/Inter-ExtraBold.ttf");
+}
+
+body {
+  font-family: "Inter-Regular";
+}
+
+h1.title {
+  font-family: "Inter-Bold";
+}
+
 .desktop-menu {
   display: block;
 }
@@ -16,6 +39,7 @@
 }
 
 
+/* ---- mobile config ---- */
 @media screen and (max-width: 375px){
   .desktop-menu {
     display: none;
@@ -24,6 +48,6 @@
   .mobile-menu {
     display: flex;
     justify-content: space-between;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
   }
 }
