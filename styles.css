@@ -18,6 +18,12 @@ body {
   font-size: 15px;
 }
 
+main.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: hsl(36, 100%, 99%);
+}
+
 h1.title {
   font-family: "Inter-Bold";
 }
@@ -41,7 +47,8 @@ ul.desktop__list-menu li {
   display: inline;
   cursor: pointer;
   color: #888;
-  margin-right: 2rem;
+  margin-left: 3rem;
+  font-size: 18px;
 }
 
 ul.desktop__list-menu li:hover, .sub-new-content h4:hover {

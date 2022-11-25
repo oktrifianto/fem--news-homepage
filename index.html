@@ -8,19 +8,33 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- mobile -->
-  <div class="mobile-menu">
-    <img class="mobile__logo" src="/assets/images/logo.svg" alt="logo">
-    <img id="menu-icon" class="mobile__menu-icon" src="/assets/images/icon-menu.svg" alt="menu" />
-  </div>
-  <!-- modal mobile menu -->
-  <div id="modal-mobile" style="display: none;">
-    <div class="mm__background"></div>
-    <div class="mm__list-menu">
-      <div class="mm__close-button">
-        <img id="close-modal-mobile" src="assets/images/icon-menu-close.svg">
+  <main class="container">
+    <!-- mobile -->
+    <div class="mobile-menu">
+      <img class="mobile__logo" src="/assets/images/logo.svg" alt="logo">
+      <img id="menu-icon" class="mobile__menu-icon" src="/assets/images/icon-menu.svg" alt="menu" />
+    </div>
+    <!-- modal mobile menu -->
+    <div id="modal-mobile" style="display: none;">
+      <div class="mm__background"></div>
+      <div class="mm__list-menu">
+        <div class="mm__close-button">
+          <img id="close-modal-mobile" src="assets/images/icon-menu-close.svg">
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
       </div>
-      <ul>
+    </div>
+
+  <!-- desktop -->
+    <div class="desktop-menu">
+      <img class="desktop__logo" src="/assets/images/logo.svg" alt="logo">
+      <ul class="desktop__list-menu">
         <li>Home</li>
         <li>New</li>
         <li>Popular</li>
@@ -28,21 +42,8 @@
         <li>Categories</li>
       </ul>
     </div>
-  </div>
 
-  <!-- desktop -->
-  <div class="desktop-menu">
-    <img class="desktop__logo" src="/assets/images/logo.svg" alt="logo">
-    <ul class="desktop__list-menu">
-      <li>Home</li>
-      <li>New</li>
-      <li>Popular</li>
-      <li>Trending</li>
-      <li>Categories</li>
-    </ul>
-  </div>
-
-  <main>
+  
     <div class="first-container">
       <section class="headline-content">
         <img class="headline__mobile-image" src="/assets/images/image-web-3-mobile.jpg" alt="awesome" width="100%" />
