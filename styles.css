@@ -48,6 +48,14 @@ ul.desktop__list-menu li:hover, .sub-new-content h4:hover {
   color:#e9ab53;
 }
 
+.headline__mobile-image {
+  display: block;
+}
+
+.headline__desktop-image {
+  display: none;
+}
+
 p.excerpt {
   color: #999;
   line-height: 1.75rem;
@@ -210,5 +218,15 @@ p.excerpt {
 
   .sub-popular-content {
     margin-right: .5rem;
+  }
+}
+
+@media screen and (min-width:1200px){
+  .headline__mobile-image {
+    display: none;
+  }
+
+  .headline__desktop-image {
+    display: block;
   }
 }
