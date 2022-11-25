@@ -93,7 +93,7 @@ p.excerpt {
 
 .sub-new-content {
   border-bottom: 1px solid #fffdfa;
-  padding-bottom: 1rem;
+  padding-bottom: 2.1rem;
 }
 
 .sub-new-content:last-child {
@@ -222,6 +222,37 @@ p.excerpt {
 }
 
 @media screen and (min-width:1200px){
+  .first-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 2rem;
+  }
+
+  .headline-content {
+    margin-right: 1rem;
+  }
+
+  h1.title {
+    font-family: "Inter-ExtraBold";
+    font-size: 2.7rem;
+    padding-right: 2rem;
+    margin-top: .75rem;
+  }
+
+  .headline__data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .new-content {
+    margin-top: 0;
+  }
+
+  .new-content h3.title {
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+  }
+
   .headline__mobile-image {
     display: none;
   }
